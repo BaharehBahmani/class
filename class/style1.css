@@ -1,0 +1,143 @@
+* {
+margin: 0;
+padding: 0;
+}
+@media (min-width: 10em) and (max-width: 90em){
+    .container { display: flex; flex-flow: column; }
+    #sidebar1{ position: relative; }
+    .middle-div { position: relative;   }
+    #sidebar2 { position: relative;  }
+
+
+
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+background: #ffffff;
+color: #000000;
+}
+#container {
+width: 1000px;
+height: 900px;
+background: #ffffff url(../images/siteBackground6.jpg) left top no-repeat;
+margin: 0 auto;
+text-align: left;
+
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+position:fixed;
+}
+#header {
+text-align: center;
+margin-bottom: 20px;
+}
+#header h1 {
+margin: 0;
+padding: 10px 0 0 0;
+font-size: 48px;
+}
+h1, h2, h3, h6{
+color: green;
+}
+
+#header {
+text-align: center;
+margin-bottom: 20px;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+border: thin solid  grey;
+
+}
+#sidebar1{
+height: 590px;
+width: 300px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color:rgb(231, 241, 231);
+overflow-x: hidden;
+padding-top: 5px;
+padding-left: 10px;
+float: left;
+border: thin solid  grey;
+position: relative;
+}
+#sidebar2{
+height: 590px;
+width: 300px;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+background-color:rgb(231, 241, 231);
+overflow-x: hidden;
+padding-top: 5px;
+padding-left: 10px;
+float: right;
+border: thin solid  grey;
+position: relative;
+
+}
+P{
+float: center;
+font-size: 15px;
+position: relative;
+text-align: justify;
+scroll-padding-right: 10px;
+}
+#mainContainer{
+width: 400px;
+height: 600px;
+}
+.middle-div{
+margin-left:300px;
+padding-left: 5px;
+
+}
+    
+
+
+#footer{
+border: thin solid  grey;
+font-size: 150px;
+bottom: 0;
+position: sticky;
+background-color: white;
+color: green;
+padding-left: 400px;
+text-align: center;
+    
+}
+.body-panel1{
+padding-right: 5px;
+}
+a href{
+    color:red;
+}
+
+
+#icons{
+    margin-left: 3px;
+    
+}
+.nav-item:hover{
+    background-color: rgb(98, 192, 98);
+
+}
+header { min-height: 130px; }
+
+.information{
+    float:right;
+    text-align: center;
+    margin-left: 200px;
+
+}
+
+@media screen and (max-width: 90em) {
+    .container { display: flex; flex-flow: column; }
+    #sidebar1{ order: 1; }
+    .middle-div { order: 2;  }
+    #sidebar2 { order: 3; }
+}
